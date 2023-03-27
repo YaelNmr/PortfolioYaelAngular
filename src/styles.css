@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*INDEX*//*INDEX*//*INDEX*//*INDEX*//*INDEX*//*INDEX*//*INDEX*//*INDEX*//*INDEX*//*INDEX*//*INDEX*//*INDEX*/
+
+/*Barra de navegación*/
+.bg-violet {
+    background-color: #000000;
+}
+.list-group{
+  --bs-list-group-bg:transparent !important;
+}
+.fa-brands.fa-facebook:hover{
+    --bs-text-opacity: 1;
+    color:#1602ce !important;
+}
+.fa-brands.fa-instagram:hover{
+  --bs-text-opacity: 1;
+  color:#ff006af3 !important;
+}
+.fa-brands.fa-twitter:hover{
+  --bs-text-opacity: 1;
+  color:#00aeff !important;
+}
+.fa-brands.fa-github:hover{
+  --bs-text-opacity: 1;
+  color:#dc37fd !important;
+}
+.fa-brands.fa-linkedin:hover{
+  --bs-text-opacity: 1;
+  color:#0a66c2 !important;
+}
+            /*Fin navbar*/
+
+/*Banner*/
+section.banner{
+  background-image: url(../src/assets/img/fondo1.png);
+  width: 100%;
+  height: 500px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1.intro{
+  padding-top: 10%;
+  font-size: 4rem;
+}
+          /*Fin Banner*/
+
+/*Presentación acerca de*/
+.acerca-de {
+  text-align: center;
+  padding: 0.4rem;
+}
+         /*Fin Presentación*/
+
+/*Sección Experiencia y Sección Educación*/
+.card {
+  margin: 10px 10px;
+  border-style: solid;
+  box-shadow: 10px 10px #888181;
+}
+        /*Fin seccion experiencia y educación*/
+
+/*Sección Habilidades*/
+       /*Estructura de los Circulos*/
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: #63B8FF;
+  text-align: center; }
+
+.progress-circle {
+  position: relative;
+  display: inline-block;
+  margin: 1rem;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #ebebeb; }
+
+  .progress-circle:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    -webkit-animation: colorload 2s;
+    animation: colorload 2s; }
+  
+  .progress-circle span {
+    font-size: 1rem;
+    color: #8b8b8b;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: block;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    margin-left: -45px;
+    margin-top: -45px;
+    text-align: center;
+    border-radius: 50%;
+    background: #fff;
+    z-index: 1; }
+  
+  .progress-circle span:after {
+    content: "%";
+    font-weight: 600;
+    color: #8b8b8b; }
+
+    @keyframes colorload {
+      0% {
+        opacity: 0;
+        transform: rotate(0deg); }
+      100% {
+        opacity: 1;
+        transform: rotate(360deg); } 
+    }
+               /*Fin Estructura de los Circulos*/
+ 
+      /*Los Circulos con habilidades incluidas*/    
+  .progress-circle.progress-65:after { /*HTML*/
+    background-image: linear-gradient(-36deg, #66b8ff 50%, transparent 50%, transparent), linear-gradient(270deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); } 
+
+  .progress-circle.progress-50:after { /*CSS*/
+    background-image: linear-gradient(-90deg, #66b8ff 50%, transparent 50%, transparent), linear-gradient(270deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+
+  .progress-circle.progress-4:after {  /*JS*/
+    background-image: linear-gradient(90deg, #ebebeb 50%, transparent 50%, transparent), linear-gradient(104.4deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+
+  .progress-circle.progress-1:after {  /*ANGULAR*/
+    background-image: linear-gradient(90deg, #ebebeb 50%, transparent 50%, transparent), linear-gradient(93.6deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+
+  .progress-circle.progress-98:after {   /*GITHUB*/
+    background-image: linear-gradient(82.8deg, #66b8ff 50%, transparent 50%, transparent), linear-gradient(270deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+    
+    .progress-circle.progress-65:after {   /*BOOTSTRAP*/
+      background-image: linear-gradient(-36deg, #66b8ff 50%, transparent 50%, transparent), linear-gradient(270deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+
+  .progress-circle.progress-2:after {    /*TYPESCRIPT*/
+    background-image: linear-gradient(90deg, #ebebeb 50%, transparent 50%, transparent), linear-gradient(97.2deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+
+  .progress-circle.progress-1:after {  /*JAVA*/
+    background-image: linear-gradient(90deg, #ebebeb 50%, transparent 50%, transparent), linear-gradient(93.6deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+
+  .progress-circle.progress-1:after {   /*MYSQL*/
+    background-image: linear-gradient(90deg, #ebebeb 50%, transparent 50%, transparent), linear-gradient(93.6deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+        /*Fin de los circulos con habilidades incluidas*/
+
+      /*Idiomas*/
+  .progress-circle.progress-90:after {   /*INGLES*/
+    background-image: linear-gradient(54deg, #66b8ff 50%, transparent 50%, transparent), linear-gradient(270deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+
+  .progress-circle.progress-3:after {   /*JAPONÉS*/
+    background-image: linear-gradient(90deg, #ebebeb 50%, transparent 50%, transparent), linear-gradient(108deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+      /*Fin de idiomas*/
+              /*Fin de Sección Habilidades*/  
+
+/*Sección Proyectos*/
+.cuadro-proyecto{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+     /*Fin seccion proyectos*/
+
+  /*FOOTER*/
+  .footer {
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #c5c4c4;
+    text-align: center;
+  }
+  /*Fin Footer*/
+
+/*FIN DEL INDEX*//*FIN DEL INDEX*//*FIN DEL INDEX*//*FIN DEL INDEX*//*FIN DEL INDEX*//*FIN DEL INDEX*//*FIN DEL INDEX*//*FIN DEL INDEX*/
+
+
+
+/*PANEL, Menu edicion, Botones Taps (no modal), banner, de redes, etc del panel*/
+
+.menu{  /**Esto es el <div class="row menu">*/
+  margin-top: 25px;
+  margin-right: 25px;
+  margin-bottom: 100px;
+  margin-left: 25px;
+}
+
+nav.vertical{
+  float: left;
+  margin-left: 0.5rem;
+  margin-top: 1rem;
+}
+
+li.vertical{
+  display: block;
+  margin: 0;
+  writing-mode: vertical;
+  padding: 0.75rem 0;
+  font-size: 1.25rem;
+}
+/*Fin panel*/
