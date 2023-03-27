@@ -17,6 +17,7 @@ import { ErrorComponent } from './error/error.component';
 import { FormularioComponent } from './login/formulario/formulario.component';
 import { RegistroComponent } from './registro/registro.component';
 import { FormularioregComponent } from './registro/formularioreg/formularioreg.component';
+import { PanelComponent } from './panel/panel.component';
 
 
 
@@ -38,6 +39,7 @@ import { FormularioregComponent } from './registro/formularioreg/formularioreg.c
     FormularioComponent,
     RegistroComponent,
     FormularioregComponent,
+    PanelComponent,
   
     
  

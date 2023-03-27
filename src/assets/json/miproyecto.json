@@ -1,0 +1,57 @@
+{
+    "nombre": "Yael",
+    "puesto": "Desarrolladora Web Full Stack Jr.",
+    "redes": [
+        {
+            "id": 0,
+            "icono": "fa-facebook"
+        },
+        {
+            "id": 1,
+            "icono": "fa-instagram"
+        },
+        {
+            "id": 2,
+            "icono": "fa-twitter"
+        },
+        {
+            "id": 3,
+            "icono": "fa-github"
+        },
+        {
+            "id": 4,
+            "icono": "fa-linkedin"
+        }
+    ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
