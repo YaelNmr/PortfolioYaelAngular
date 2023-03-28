@@ -1,0 +1,403 @@
+ <!--Barra lateral de iconos-->
+ <div class="row menu">
+    <div class="col-1">
+      <nav class="vertical" id="list-tab" role="tablist">
+        <ul>
+          <li class="vertical">
+            <a class="list-group-item list-group-item-action active" id="list-redes-list" data-bs-toggle="list"
+              href="#list-redes" role="tab" aria-controls="list-redes">
+              <i class="fa-sharp fa-solid fa-share-nodes"></i></a>
+          </li>
+          <li class="vertical">
+            <a class="list-group-item list-group-item-action" id="list-banner-list" data-bs-toggle="list"
+              href="#list-banner" role="tab" aria-controls="list-banner">
+              <i class="fa-sharp fa-solid fa-image"></i></a>
+          </li>
+          <li class="vertical">
+            <a class="list-group-item list-group-item-action" id="list-info-list" data-bs-toggle="list"
+              href="#list-info" role="tab" aria-controls="list-info">
+              <i class="fa-sharp fa-solid fa-user"></i></a>
+          </li>
+          <li class="vertical">
+            <a class="list-group-item list-group-item-action" id="list-trabajo-list" data-bs-toggle="list"
+              href="#list-trabajo" role="tab" aria-controls="list-trabajo">
+              <i class="fa-sharp fa-solid fa-briefcase"></i></a>
+          </li>
+          <li class="vertical">
+            <a class="list-group-item list-group-item-action" id="list-educación-list" data-bs-toggle="list"
+              href="#list-educación" role="tab" aria-controls="list-educación">
+              <i class="fa-sharp fa-solid fa-graduation-cap"></i></a>
+          </li>
+          <li class="vertical">
+            <a class="list-group-item list-group-item-action" id="list-habilidades-list" data-bs-toggle="list"
+              href="#list-habilidades" role="tab" aria-controls="list-habilidades">
+              <i class="fa-sharp fa-solid fa-wand-magic-sparkles"></i></a>
+          </li>
+          <li class="vertical">
+            <a class="list-group-item list-group-item-action" id="list-proyectos-list" data-bs-toggle="list"
+              href="#list-proyectos" role="tab" aria-controls="list-proyectos">
+              <i class="fa-sharp fa-solid fa-list-check"></i></a>
+          </li>
+        </ul>
+      </nav> <!--Fin Barra lateral de íconos-->
+    </div>
+    <!--Editor-->
+    <div class="col-11 mt-2">
+      <div class="tab-content" id="nav-tabContent">
+        <!--Redes-->
+        <div class="tab-pane fade show active" id="list-redes" role="tabpanel" aria-labelledby="list-redes-list">
+          <div class="container">
+            <form>
+              <div class="my-3"> <!--FB-->
+                <label for="facebook" class="form-label">Enlace Red Social 1</label>
+                <input type="text" class="form-control" id="facebook">
+                <button type="button" class="btn btn-primary">Guardar</button>
+                <button type="button" class="btn btn-danger">Cancelar</button>
+              </div>
+              <div class="my-3"> <!--IG-->
+                <label for="instagram" class="form-label">Enlace Red Social 2</label>
+                <input type="text" class="form-control" id="instagram">
+                <button type="button" class="btn btn-primary">Guardar</button>
+                <button type="button" class="btn btn-danger">Cancelar</button>
+              </div>
+              <div class="my-3"> <!--TWITTER-->
+                <label for="twitter" class="form-label">Enlace Red Social 3</label>
+                <input type="text" class="form-control" id="twitter">
+                <button type="button" class="btn btn-primary">Guardar</button>
+                <button type="button" class="btn btn-danger">Cancelar</button>
+              </div>
+              <div class="my-3"> <!--GitHub-->
+                <label for="github" class="form-label">Enlace Red Social 4</label>
+                <input type="text" class="form-control" id="github">
+                <button type="button" class="btn btn-primary">Guardar</button>
+                <button type="button" class="btn btn-danger">Cancelar</button>
+              </div>
+              <div class="my-3"> <!--Linkedin-->
+                <label for="linkedin" class="form-label">Enlace Red Social 5</label>
+                <input type="text" class="form-control" id="linkedin">
+                <button type="button" class="btn btn-primary">Guardar</button>
+                <button type="button" class="btn btn-danger">Cancelar</button>
+              </div>
+            </form>
+          </div>
+        </div> <!--Fin Redes-->
+        <!--Banner-->
+        <div class="tab-pane fade" id="list-banner" role="tabpanel" aria-labelledby="list-banner-list">
+          <div class="container">
+            <form>
+              <div class="my-3">
+                <label for="banner" class="form-label">Img banner</label>
+                <input class="form-control" type="file" id="banner">
+                <button type="button" class="btn btn-primary">Guardar</button>
+                <button type="button" class="btn btn-danger">Cancelar</button>
+              </div>
+              <div class="my-3">
+                <label for="info" class="form-label">Texto-Saludo</label>
+                <textarea class="form-control" id="info" style="height: 100px;"></textarea>
+                <button type="button" class="btn btn-primary">Guardar</button>
+                <button type="button" class="btn btn-danger">Cancelar</button>
+              </div>
+            </form>
+          </div>
+        </div> <!--Fin Banner-->
+        <!--Info, Presentación-->
+        <div class="tab-pane fade" id="list-info" role="tabpanel" aria-labelledby="list-info-list">
+          <div class="container">
+            <form>
+              <div class="my-3">
+                <label for="info" class="form-label">Acerca de Mí</label>
+                <textarea class="form-control" id="info" style="height: 100px;"></textarea>
+                <button type="button" class="btn btn-primary">Guardar</button>
+                <button type="button" class="btn btn-danger">Cancelar</button>
+              </div>
+              <div class="my-3">
+                <label for="info" class="form-label">Foto perfil</label>
+                <input class="form-control" type="file" id="info">
+                <button type="button" class="btn btn-primary">Guardar</button>
+                <button type="button" class="btn btn-danger">Cancelar</button>
+              </div>
+            </form>
+          </div>
+        </div> <!--Fin Presentación-->
+        <!--Trabajo-->
+        <div class="tab-pane fade" id="list-trabajo" role="tabpanel" aria-labelledby="list-trabajo-list">
+          <div class="container">
+            <form>
+              <div class="my-3"> <!--Kuma-->
+                <label for="trabajoUno" class="form-label">Trabajo 1-Descripción</label>
+                <textarea class="form-control" id="info" style="height: 100px;"></textarea>
+                <button type="button" class="btn btn-primary">Guardar</button>
+                <button type="button" class="btn btn-danger">Cancelar</button>
+              </div>
+              <div class="my-3">
+                <label for="trabajoUno" class="form-label">Logo</label>
+                <input class="form-control" type="file" id="trabajoUno">
+                <button type="button" class="btn btn-primary">Guardar</button>
+                <button type="button" class="btn btn-danger">Cancelar</button>
+              </div>
+              <!--Fin Kuma-->
+              <div class="my-3"> <!--Atención al cliente-->
+                <label for="trabajoDos" class="form-label">Trabajo 2-Descripción</label>
+                <textarea class="form-control" id="info" style="height: 100px;"></textarea>
+                <button type="button" class="btn btn-primary">Guardar</button>
+                <button type="button" class="btn btn-danger">Cancelar</button>
+              </div>
+              <div class="my-3">
+                <label for="trabajoDos" class="form-label">Logo</label>
+                <input class="form-control" type="file" id="trabajoDos">
+                <button type="button" class="btn btn-primary">Guardar</button>
+                <button type="button" class="btn btn-danger">Cancelar</button>
+              </div>
+              <!--Fin Atencion cliente-->
+              <div class="my-3"> <!--Otras experiencias-->
+                <label for="trabajoTres" class="form-label">Trabajo 3-Descripción</label>
+                <textarea class="form-control" id="info" style="height: 100px;"></textarea>
+                <button type="button" class="btn btn-primary">Guardar</button>
+                <button type="button" class="btn btn-danger">Cancelar</button>
+              </div>
+              <div class="my-3">
+                <label for="trabajoTres" class="form-label">Logo</label>
+                <input class="form-control" type="file" id="trabajoTres">
+                <button type="button" class="btn btn-primary">Guardar</button>
+                <button type="button" class="btn btn-danger">Cancelar</button>
+              </div>
+              <!--Fin Otras experiencias-->
+            </form>
+          </div>
+        </div> <!--Fin Trabajo-->
+        <!--Educación-->
+        <div class="tab-pane fade" id="list-educación" role="tabpanel" aria-labelledby="list-educación-list">
+          <div class="container">
+            <form>
+              <div class="my-3"> <!--ArgPro-->
+                <label for="" class="form-label">Estudio 1-Descripción</label>
+                <textarea class="form-control" id="info" style="height: 100px;"></textarea>
+                <button type="button" class="btn btn-primary">Guardar</button>
+                <button type="button" class="btn btn-danger">Cancelar</button>
+              </div>
+              <div class="my-3">
+                <label for="educaciónUno" class="form-label">Logo</label>
+                <input class="form-control" type="file" id="educaciónUno">
+                <button type="button" class="btn btn-primary">Guardar</button>
+                <button type="button" class="btn btn-danger">Cancelar</button>
+              </div>
+              <!--Fin ArgPro-->
+              <div class="my-3"> <!--Profesorado-->
+                <label for="educaciónDos" class="form-label">Estudio 2-Descripción</label>
+                <textarea class="form-control" id="info" style="height: 100px;"></textarea>
+                <button type="button" class="btn btn-primary">Guardar</button>
+                <button type="button" class="btn btn-danger">Cancelar</button>
+              </div>
+              <div class="my-3">
+                <label for="educaciónDos" class="form-label">Logo</label>
+                <input class="form-control" type="file" id="educaciónDos">
+                <button type="button" class="btn btn-primary">Guardar</button>
+                <button type="button" class="btn btn-danger">Cancelar</button>
+              </div>
+              <!--Fin Profesorado-->
+              <div class="my-3"> <!--638-->
+                <label for="educaciónTres" class="form-label">Estudio 3-Descripción</label>
+                <textarea class="form-control" id="info" style="height: 100px;"></textarea>
+                <button type="button" class="btn btn-primary">Guardar</button>
+                <button type="button" class="btn btn-danger">Cancelar</button>
+              </div>
+              <div class="my-3">
+                <label for="educaciónTres" class="form-label">Logo</label>
+                <input class="form-control" type="file" id="educaciónTres">
+                <button type="button" class="btn btn-primary">Guardar</button>
+                <button type="button" class="btn btn-danger">Cancelar</button>
+              </div>
+              <!--Fin 638-->
+            </form>
+          </div>
+        </div> <!--Fin Educación-->
+        <!--Habilidades-->
+        <div class="tab-pane fade" id="list-habilidades" role="tabpanel" aria-labelledby="list-habilidades-list">
+          <div class="container">
+            <form>
+              <div class="row">
+                <div class="col-6 my-3"> <!--Skill 1-->
+                  <label for="habilidadesUno" class="form-label">Habilidad 1</label>
+                  <input type="text" class="form-control" id="habilidadesUno">
+                  <button type="button" class="btn btn-primary">Guardar</button>
+                  <button type="button" class="btn btn-danger">Cancelar</button>
+                </div>
+                <div class="col-6 my-3">
+                  <label for="porcentajesUno" class="form-label">Porcentaje Habilidad 1</label>
+                  <input type="text" class="form-control" id="porcentajesUno">
+                  <button type="button" class="btn btn-primary">Guardar</button>
+                  <button type="button" class="btn btn-danger">Cancelar</button>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-6 my-3"> <!--Skill 2-->
+                  <label for="habilidadesDos" class="form-label">Habilidad 2</label>
+                  <input type="text" class="form-control" id="habilidadesDos">
+                  <button type="button" class="btn btn-primary">Guardar</button>
+                  <button type="button" class="btn btn-danger">Cancelar</button>
+                </div>
+                <div class="col-6 my-3">
+                  <label for="porcentajesDos" class="form-label">Porcentaje Habilidad 2</label>
+                  <input type="text" class="form-control" id="porcentajesDos">
+                  <button type="button" class="btn btn-primary">Guardar</button>
+                  <button type="button" class="btn btn-danger">Cancelar</button>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-6 my-3"> <!--Skill 3-->
+                  <label for="habilidadesTres" class="form-label">Habilidad 3</label>
+                  <input type="text" class="form-control" id="habilidadesTres">
+                  <button type="button" class="btn btn-primary">Guardar</button>
+                  <button type="button" class="btn btn-danger">Cancelar</button>
+                </div>
+                <div class="col-6 my-3">
+                  <label for="porcentajesTres" class="form-label">Porcentaje Habilidad 3</label>
+                  <input type="text" class="form-control" id="porcentajesTres">
+                  <button type="button" class="btn btn-primary">Guardar</button>
+                  <button type="button" class="btn btn-danger">Cancelar</button>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-6 my-3"> <!--Skill 4-->
+                  <label for="habilidadesCuatro" class="form-label">Habilidad 4</label>
+                  <input type="text" class="form-control" id="habilidadesCuatro">
+                  <button type="button" class="btn btn-primary">Guardar</button>
+                  <button type="button" class="btn btn-danger">Cancelar</button>
+                </div>
+                <div class="col-6 my-3">
+                  <label for="porcentajesCuatro" class="form-label">Porcentaje Habilidad 4</label>
+                  <input type="text" class="form-control" id="porcentajesCuatro">
+                  <button type="button" class="btn btn-primary">Guardar</button>
+                  <button type="button" class="btn btn-danger">Cancelar</button>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-6 my-3"> <!--Skill 5-->
+                  <label for="habilidadesCinco" class="form-label">Habilidad 5</label>
+                  <input type="text" class="form-control" id="habilidadesCinco">
+                  <button type="button" class="btn btn-primary">Guardar</button>
+                  <button type="button" class="btn btn-danger">Cancelar</button>
+                </div>
+                <div class="col-6 my-3">
+                  <label for="porcentajesCinco" class="form-label">Porcentaje Habilidad 5</label>
+                  <input type="text" class="form-control" id="porcentajesCinco">
+                  <button type="button" class="btn btn-primary">Guardar</button>
+                  <button type="button" class="btn btn-danger">Cancelar</button>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-6 my-3"> <!--Skill 6-->
+                  <label for="habilidadesSeis" class="form-label">Habilidad 6</label>
+                  <input type="text" class="form-control" id="habilidadesSeis">
+                  <button type="button" class="btn btn-primary">Guardar</button>
+                  <button type="button" class="btn btn-danger">Cancelar</button>
+                </div>
+                <div class="col-6 my-3">
+                  <label for="porcentajesSeis" class="form-label">Porcentaje Habilidad 6</label>
+                  <input type="text" class="form-control" id="porcentajesSeis">
+                  <button type="button" class="btn btn-primary">Guardar</button>
+                  <button type="button" class="btn btn-danger">Cancelar</button>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-6 my-3"> <!--Skill 7-->
+                  <label for="habilidadesSiete" class="form-label">Habilidad 7</label>
+                  <input type="text" class="form-control" id="habilidadesSiete">
+                  <button type="button" class="btn btn-primary">Guardar</button>
+                  <button type="button" class="btn btn-danger">Cancelar</button>
+                </div>
+                <div class="col-6 my-3">
+                  <label for="porcentajesSiete" class="form-label">Porcentaje Habilidad 7</label>
+                  <input type="text" class="form-control" id="porcentajesSiete">
+                  <button type="button" class="btn btn-primary">Guardar</button>
+                  <button type="button" class="btn btn-danger">Cancelar</button>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-6 my-3"> <!--Skill 8-->
+                  <label for="habilidadesOcho" class="form-label">Habilidad 8</label>
+                  <input type="text" class="form-control" id="habilidadesOcho">
+                  <button type="button" class="btn btn-primary">Guardar</button>
+                  <button type="button" class="btn btn-danger">Cancelar</button>
+                </div>
+                <div class="col-6 my-3">
+                  <label for="porcentajesOcho" class="form-label">Porcentaje Habilidad 8</label>
+                  <input type="text" class="form-control" id="porcentajesOcho">
+                  <button type="button" class="btn btn-primary">Guardar</button>
+                  <button type="button" class="btn btn-danger">Cancelar</button>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-6 my-3"> <!--Skill 9-->
+                  <label for="habilidadesNueve" class="form-label">Habilidad 9</label>
+                  <input type="text" class="form-control" id="habilidadesNueve">
+                  <button type="button" class="btn btn-primary">Guardar</button>
+                  <button type="button" class="btn btn-danger">Cancelar</button>
+                </div>
+                <div class="col-6 my-3">
+                  <label for="porcentajesNueve" class="form-label">Porcentaje Habilidad 9</label>
+                  <input type="text" class="form-control" id="porcentajesNueve">
+                  <button type="button" class="btn btn-primary">Guardar</button>
+                  <button type="button" class="btn btn-danger">Cancelar</button>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-6 my-3"> <!--Skill 10-->
+                  <label for="habilidadesDiez" class="form-label">Habilidad 10</label>
+                  <input type="text" class="form-control" id="habilidadesDiez">
+                  <button type="button" class="btn btn-primary">Guardar</button>
+                  <button type="button" class="btn btn-danger">Cancelar</button>
+                </div>
+                <div class="col-6 my-3">
+                  <label for="porcentajesDiez" class="form-label">Porcentaje Habilidad 10</label>
+                  <input type="text" class="form-control" id="porcentajesDiez">
+                  <button type="button" class="btn btn-primary">Guardar</button>
+                  <button type="button" class="btn btn-danger">Cancelar</button>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-6 my-3"> <!--Skill 11-->
+                  <label for="habilidadesOnce" class="form-label">Habilidad 11</label>
+                  <input type="text" class="form-control" id="habilidadesOnce">
+                  <button type="button" class="btn btn-primary">Guardar</button>
+                  <button type="button" class="btn btn-danger">Cancelar</button>
+                </div>
+                <div class="col-6 my-3">
+                  <label for="porcentajesOnce" class="form-label">Porcentaje Habilidad 11</label>
+                  <input type="text" class="form-control" id="porcentajesOnce">
+                  <button type="button" class="btn btn-primary">Guardar</button>
+                  <button type="button" class="btn btn-danger">Cancelar</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div> <!--Fin Habilidades-->
+        <!--Proyectos-->
+        <div class="tab-pane fade" id="list-proyectos" role="tabpanel" aria-labelledby="list-proyectos-list">
+          <div class="container">
+            <form>
+              <div class="my-3">
+                <label for="proyecto" class="form-label">Foto Proyecto</label>
+                <input class="form-control" type="file" id="proyecto">
+                <button type="button" class="btn btn-primary">Guardar</button>
+              <button type="button" class="btn btn-danger">Cancelar</button>
+              </div>
+              <div class="my-3">
+                <label for="proyecto" class="form-label">Mí Proyecto-Descripción</label>
+                <textarea class="form-control" id="info" style="height: 100px;"></textarea>
+                <button type="button" class="btn btn-primary">Guardar</button>
+              <button type="button" class="btn btn-danger">Cancelar</button>
+              </div>            
+              <div class="my-3">
+                <label for="proyecto" class="form-label">Enlace proyecto</label>
+                <input type="text" class="form-control" id="proyecto">
+                <button type="button" class="btn btn-primary">Guardar</button>
+              <button type="button" class="btn btn-danger">Cancelar</button>
+              </div>             
+            </form>
+          </div>
+        </div><!--Fin Poyectos-->
+      </div>
+    </div>
+    <!--Fin Botones edición-->
+  </div> <!--Fin Editor-->

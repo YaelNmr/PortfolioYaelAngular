@@ -19,6 +19,7 @@ import { RegistroComponent } from './registro/registro.component';
 import { FormularioregComponent } from './registro/formularioreg/formularioreg.component';
 import { PanelComponent } from './panel/panel.component';
 import { NavbarpanelComponent } from './panel/navbarpanel/navbarpanel.component';
+import { EditorComponent } from './panel/editor/editor.component';
 
 
 
@@ -43,6 +44,7 @@ import { NavbarpanelComponent } from './panel/navbarpanel/navbarpanel.component'
     FormularioregComponent,
     PanelComponent,
     NavbarpanelComponent,
+    EditorComponent,
    
   
     
