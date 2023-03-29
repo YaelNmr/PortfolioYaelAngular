@@ -1,10 +1,18 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { ProyectoService } from 'src/app/servicios/proyecto.service';
 
 @Component({
   selector: 'app-presentacion',
   templateUrl: './presentacion.component.html',
   styleUrls: ['./presentacion.component.css']
 })
-export class PresentacionComponent {
+export class PresentacionComponent implements OnInit {
+  constructor(private datosProyecto:ProyectoService) { }
 
+  ngOnInit(): void {
+    this.datosProyecto.obtenerDatos().subscribe(datos =>{
+      console.log(datos);
+    } );
+
+  }
 }
