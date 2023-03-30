@@ -7,12 +7,13 @@ import { ProyectoService } from 'src/app/servicios/proyecto.service';
   styleUrls: ['./presentacion.component.css']
 })
 export class PresentacionComponent implements OnInit {
+  miProyecto:any;
   constructor(private datosProyecto:ProyectoService) { }
 
   ngOnInit(): void {
     this.datosProyecto.obtenerDatos().subscribe(datos =>{
       console.log(datos);
-    } );
-
+      this.miProyecto=datos;
+    });
   }
 }

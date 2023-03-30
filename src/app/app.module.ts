@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule} from '@angular/common/http';
 
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { IndexComponent } from './index/index.component';
@@ -20,9 +21,6 @@ import { RegistroComponent } from './registro/registro.component';
 import { FormularioregComponent } from './registro/formularioreg/formularioreg.component';
 import { PanelComponent } from './panel/panel.component';
 import { NavbarpanelComponent } from './panel/navbarpanel/navbarpanel.component';
-import { EditorComponent } from './panel/editor/editor.component';
-
-
 
 
 
@@ -45,14 +43,8 @@ import { EditorComponent } from './panel/editor/editor.component';
     FormularioregComponent,
     PanelComponent,
     NavbarpanelComponent,
-    EditorComponent,
-   
-  
     
- 
-
-
-
+  
 
   
 

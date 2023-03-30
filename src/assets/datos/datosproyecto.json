@@ -1,9 +1,9 @@
 {
-    "nombre": "Yael",
+    "nombre": "¡Hola, soy Yael!",
     "titulo": "Desarrolladora Web Full Stack Jr.",
-    "banner": "../../../assets/img/fondo1.png",
     "profileImage": "../../../assets/img/pic4.jpg",
-    "acercadeMi": "Me considero una persona autodidacta. Me encanta aprender cosas nuevas, leer, investigar, sumar conocimientos. Desde muy chica estoy inmersa en el mundo de la informática y la tecnología porque amo los videojuegos y la PC. Trabajo como diseñadora, Social Media Manager y Community Manager en mí emprendimiento de sublimaciones. Con respecto a la programación, gracias a Argentina Programa se me abrió la puerta a un mundo completamente distinto y me encanta. Siempre busco sumar habilidades para seguir creciendo y progresando en todo ámbito.",
+    "subtitulo": "Acerca de mí",
+    "acercadeMi": "Me considero una persona autodidacta. Me encanta aprender cosas nuevas, leer, investigar, sumar conocimientos. Desde muy chica estoy inmersa en el mundo de la informática y la tecnología porque ¡amo los videojuegos y la PC!. Trabajo como diseñadora, Social Media Manager y Community Manager en mí emprendimiento de sublimaciones. Con respecto a la programación, gracias a Argentina Programa se me abrió la puerta a un mundo completamente distinto y me encanta. Siempre busco sumar habilidades para seguir creciendo y progresando en todo ámbito.",
 
     "redes": [
         {
@@ -83,8 +83,8 @@
         },
         {
             "id":2,
-            "titulo": "Porfesorado de Ingles",
-            "institucion": "Instituto de Educación Superior N.º 28 Olga Cossettin",
+            "titulo": "Profesorado de Ingles",
+            "institucion": "Instituto de Educación Superior N.º 28 Olga Cossettini",
             "logo":"../../../assets/img/instituto.jpg",
             "inicio": "2012",
             "fin": "2012"
@@ -159,7 +159,6 @@
 
     "proyectos":[
         {
-            "id":1,
             "nombre": "Mí Proyecto.",
             "descripcion": "Muestra de mí portfolio como parte del proyecto final integrador del curso Argentina Programa YoProgramo",
             "url": "https://github.com/YaelNmr/ProyectoFinal"
