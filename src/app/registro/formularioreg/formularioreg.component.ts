@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component } from '@angular/core';    //NO usar Ñ ni acentos
 
 @Component({
   selector: 'app-formularioreg',

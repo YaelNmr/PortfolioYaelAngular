@@ -12,8 +12,7 @@ export class BannerComponent implements OnInit {
 
   ngOnInit(): void {
     this.datosProyecto.obtenerDatos().subscribe(datos =>{
-      console.log(datos);
       this.miProyecto=datos;
-    });
+    })
   }
 }
