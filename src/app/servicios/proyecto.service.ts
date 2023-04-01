@@ -9,7 +9,7 @@ export class ProyectoService {
                    //"http" es solo un alias, se puede poner otro nombre, lo que queramos.
   constructor(private http:HttpClient) { }
 
-  obtenerDatos():Observable<any>{                                                //método observable que devuelve los datos. Siempre escrbir la primer palabra en minúscula y la siguiente en mayúscula.
+  obtenerDatos():Observable<any>{                                                //método observable que devuelve los datos. Siempre escribir la primer palabra en minúscula y la siguiente en mayúscula.
     return this.http.get('./assets/datos/datosproyecto.json');                  //retorno de datos utilizando el método GET de HttpClient que llama a la base de datos JSON ó a una URL.
   }
 }
