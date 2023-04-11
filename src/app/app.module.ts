@@ -22,6 +22,7 @@ import { FormularioregComponent } from './registro/formularioreg/formularioreg.c
 import { PanelComponent } from './panel/panel.component';
 import { NavbarpanelComponent } from './panel/navbarpanel/navbarpanel.component';
 import { RedesComponent } from './index/navbar/redes/redes.component';
+import { EditorComponent } from './panel/editor/editor.component';
 
 
 
@@ -45,6 +46,7 @@ import { RedesComponent } from './index/navbar/redes/redes.component';
     PanelComponent,
     NavbarpanelComponent,
     RedesComponent,
+    EditorComponent,
     
   
 

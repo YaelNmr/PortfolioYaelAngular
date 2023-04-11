@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <h2 class="text-center">Estudios</h2>
-        <div class="col-md-4 card-container" *ngFor="let education of educacion"> <!--*ngFor es para iterar (repetir varias veces) sobre la variable y mostrar los datos por medio de interpolación-->
+        <div class="col-md-4 card-container" *ngFor="let education of educacion"> 
           <div class="card front">
             <img [src]="education.logo" alt="logo-argpro" class="card-img-top img-fluid">
             <div class="card-block">
@@ -17,3 +17,5 @@
   </section>
   <br>
   <hr>
+
+<!--*ngFor es para iterar (repetir varias veces) sobre la variable y mostrar los datos por medio de interpolación-->
