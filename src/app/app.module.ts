@@ -23,6 +23,14 @@ import { PanelComponent } from './panel/panel.component';
 import { NavbarpanelComponent } from './panel/navbarpanel/navbarpanel.component';
 import { RedesComponent } from './index/navbar/redes/redes.component';
 import { EditorComponent } from './panel/editor/editor.component';
+import { BarverticalComponent } from './panel/editor/barvertical/barvertical.component';
+import { EditredesComponent } from './panel/editor/barvertical/editredes/editredes.component';
+import { EditbannerComponent } from './panel/editor/barvertical/editbanner/editbanner.component';
+import { EditinfoComponent } from './panel/editor/barvertical/editinfo/editinfo.component';
+import { EdittrabajoComponent } from './panel/editor/barvertical/edittrabajo/edittrabajo.component';
+import { EditeducacionComponent } from './panel/editor/barvertical/editeducacion/editeducacion.component';
+import { EditskillsComponent } from './panel/editor/barvertical/editskills/editskills.component';
+import { EditproyectoComponent } from './panel/editor/barvertical/editproyecto/editproyecto.component';
 
 
 
@@ -47,6 +55,14 @@ import { EditorComponent } from './panel/editor/editor.component';
     NavbarpanelComponent,
     RedesComponent,
     EditorComponent,
+    BarverticalComponent,
+    EditredesComponent,
+    EditbannerComponent,
+    EditinfoComponent,
+    EdittrabajoComponent,
+    EditeducacionComponent,
+    EditskillsComponent,
+    EditproyectoComponent,
     
   
 
