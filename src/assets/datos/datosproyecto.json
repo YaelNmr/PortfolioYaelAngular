@@ -73,6 +73,76 @@
             "inicio": "(2004)",
             "fin": "(2008)"
         }
+    ],
+
+    "habilidades":[
+        {
+            "id":1,
+            "nombre":"HTML",
+            "porcentaje":50
+        },
+        {
+            "id":2,
+            "nombre":"CSS",
+            "porcentaje":50
+        },
+        {
+            "id":3,
+            "nombre":"JS",
+            "porcentaje":4
+        },
+        {
+            "id":4,
+            "nombre":"ANGULAR",
+            "porcentaje":10
+        },
+        {
+            "id":5,
+            "nombre":"GITHUB",
+            "porcentaje":70
+        },
+        {
+            "id":6,
+            "nombre":"BOOTSTRAP",
+            "porcentaje":50
+        },
+        {
+            "id":7,
+            "nombre":"TS",
+            "porcentaje":2
+        },
+        {
+            "id":8,
+            "nombre":"JAVA",
+            "porcentaje":1
+        },
+        {
+            "id":9,
+            "nombre":"MYSQL",
+            "porcentaje":1
+        },
+        {
+            "id":10,
+            "nombre":"INGLES",
+            "porcentaje":90
+        },
+        {
+            "id":11,
+            "nombre":"JAPONES",
+            "porcentaje":3
+        }
+    ],
+
+    "proyecto":[
+        {
+            "id":1,
+            "img": "../../../assets/img/proyecto1.jpg",
+            "nombre": "Mí Proyecto.",
+            "descripcion": "Muestra de mí portfolio como parte del proyecto final integrador del curso Argentina Programa #YoProgramo",
+            "url": "https://github.com/YaelNmr/ProyectoFinal.git"
+        }
     ]
 }
+
+
 

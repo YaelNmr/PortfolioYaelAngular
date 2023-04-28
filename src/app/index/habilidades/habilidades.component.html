@@ -1,20 +1,9 @@
 <!--Sección Habilidades-->
-<section class="habilidades mt-4">
-    <div class="progress-circle-container text-center">
-      <h1 class="barras text-center"><strong>Mis Habilidades</strong></h1><br>
-      <h3 class="lenguajes text-center">Lenguajes y Herramientas aprendidos en #YoProgramo:</h3>
-      <div class="progress-circle progress-50"><span>HTML</span></div>
-      <div class="progress-circle progress-50"><span>CSS</span></div>
-      <div class="progress-circle progress-4"><span>JS</span></div>
-      <div class="progress-circle progress-10"><span>ANGULAR</span></div>
-      <div class="progress-circle progress-70"><span>GITHUB</span></div>
-      <div class="progress-circle progress-50"><span>BOOTSTRAP</span></div><br>
-      <div class="progress-circle progress-2"><span>TS</span></div>
-      <div class="progress-circle progress-1"><span>JAVA</span></div>
-      <div class="progress-circle progress-1"><span>MYSQL</span></div>
-      <h3 class="lenguajes text-center">Idiomas:</h3>
-      <div class="progress-circle progress-90"><span>INGLÉS</span></div>
-      <div class="progress-circle progress-3"><span>JAPONÉS</span></div>
+<h1 class="barras text-center"><strong>Mis Habilidades</strong></h1><br>
+<h3 class="lenguajes text-center">Lenguajes y Herramientas aprendidos en #YoProgramo - Idiomas.</h3>
+<section class="habilidades mt-4 text-center">
+    <div class="progress-circle-container" *ngFor="let habilidades of skills">
+      <div class="progress-circle progress-{{habilidades.porcentaje}}"><span>{{habilidades.nombre}}</span></div> 
     </div>
   </section> 
   <hr>
