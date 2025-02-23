@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule} from '@angular/common/http';
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -31,6 +31,7 @@ import { EdittrabajoComponent } from './panel/editor/barvertical/edittrabajo/edi
 import { EditeducacionComponent } from './panel/editor/barvertical/editeducacion/editeducacion.component';
 import { EditskillsComponent } from './panel/editor/barvertical/editskills/editskills.component';
 import { EditproyectoComponent } from './panel/editor/barvertical/editproyecto/editproyecto.component';
+
 
 
 
@@ -64,15 +65,14 @@ import { EditproyectoComponent } from './panel/editor/barvertical/editproyecto/e
     EditskillsComponent,
     EditproyectoComponent,
     
-  
-
-  
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
