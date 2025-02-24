@@ -7,7 +7,7 @@ import { Experiencia } from '../entities/experiencia';
   providedIn: 'root'
 })
 export class ExperienciaService {
-  url='http://localhost:8080/experiencia/'   //la / al final es para llamar solo al sectorcito experiencia. sin la / al final llamaria a todo
+  url='https://backendyael.onrender.com/experiencia/'   //la / al final es para llamar solo al sectorcito experiencia. sin la / al final llamaria a todo
   constructor(private httpClient:HttpClient) { } 
 
   public list():Observable<Experiencia[]>{
